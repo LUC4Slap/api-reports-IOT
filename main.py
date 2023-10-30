@@ -13,7 +13,6 @@ tags_metadata = [
 
 
 app = FastAPI(
-    
     openapi_url="/api/v1/openapi.json",
     swagger_ui_parameters={"syntaxHighlight": 'obsidian'})
 reports = GetReposts()
