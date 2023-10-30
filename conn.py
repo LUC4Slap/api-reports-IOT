@@ -23,6 +23,7 @@ class GetReposts:
 
     def returnDB(self):
       self.getReportDB()
+      self.results_array = []
       for doc in self.results:
           self.results_array.append(doc)
       print(self.results_array)
